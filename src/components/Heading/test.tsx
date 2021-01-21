@@ -14,7 +14,8 @@ describe('<Heading />', () => {
 
     expect(screen.getByRole('heading', { name: /Heading/i })).toHaveStyle({
       'font-size': `${theme.font.sizes.xlarge}`,
-      'font-weight': `${theme.font.bold}`
+      'font-weight': `${theme.font.bold}`,
+      color: `${theme.colors.title}`
     })
   })
 
