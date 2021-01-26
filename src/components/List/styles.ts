@@ -32,7 +32,23 @@ export const Subtitle = styled.div`
 
 export const ListCards = styled.div`
   border-radius: 1rem;
+  background: #ffffff;
   box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.1);
+  max-height: 35rem;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 0.7rem;
+
+    border-radius: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    ${({ theme }) => css`
+      background: ${theme.colors.blue};
+      border-radius: 1rem;
+    `}
+  }
 `
 
 export const Card = styled.div`
@@ -43,6 +59,7 @@ export const Card = styled.div`
     height: 7rem;
     background: #ffffff;
     padding: ${theme.spacings.xsmall};
+    border-bottom: 1px solid ${theme.colors.background};
 
     &:first-of-type {
       border-radius: 15px 15px 0 0;
@@ -177,6 +194,23 @@ export const Quantity = styled.div<QuantityProps>`
   `}
 `
 export const Data = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin: 0 ${theme.spacings.medium};
+    > p {
+      font-family: ${theme.font.family};
+      font-size: ${theme.font.sizes.medium};
+      font-weight: ${theme.font.light};
+      color: ${theme.colors.grey};
+    }
+  `}
+`
+
+export const Client = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex: 1;

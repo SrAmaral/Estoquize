@@ -7,7 +7,8 @@ export default [
     company: 'sec brasil',
     image: '',
     description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
-    create_at: '20 dez 2020'
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export default [
     company: 'sec brasil',
     image: '',
     description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
-    create_at: '20 dez 2020'
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export default [
     company: 'sec brasil',
     image: '',
     description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
-    create_at: '20 dez 2020'
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ export default [
     company: 'sec brasil',
     image: '',
     description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
-    create_at: '20 dez 2020'
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
   },
   {
     id: 5,
@@ -47,6 +51,150 @@ export default [
     company: 'sec brasil',
     image: '',
     description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
-    create_at: '20 dez 2020'
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 6,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
+  },
+  {
+    id: 7,
+    name: 'Produto exemplo tal ',
+    quantity: 12,
+    category: 'categoria',
+    company: 'sec brasil',
+    image: '',
+    description: 'taltaltaltalalslsa als sal asasa sas asllsaffabfiasf',
+    create_at: '20 dez 2020',
+    client: 'Prologis Cajamar'
   }
 ]

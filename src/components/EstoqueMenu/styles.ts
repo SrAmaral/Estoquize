@@ -1,7 +1,13 @@
 import styled, { css, DefaultTheme } from 'styled-components'
+import media from 'styled-media-query'
 import { EstoqueMenuProps } from '.'
 
-export const Wrapper = styled.main``
+export const Wrapper = styled.main`
+  ${media.lessThan('medium')`
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    `}
+`
 
 export const ButtonModiffier = {
   selected: (theme: DefaultTheme) => css`

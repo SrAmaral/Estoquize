@@ -16,8 +16,16 @@ const mediaMatchModifiers = {
   `,
 
   greaterThan: (size: breakpoint) => css`
-    ${media.greaterThan(size)`
+    ${({ theme }) => css`
+      ${media.greaterThan(size)`
       display: block;
+
+      > span {
+      color: ${theme.colors.grey};
+      font-size: ${theme.font.sizes.medium};
+      transition: all ${theme.transition.fast};
+    }
+    `}
     `}
   `
 }

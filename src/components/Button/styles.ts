@@ -55,6 +55,7 @@ export const Wrapper = styled.button<WrapperProps>`
     padding: ${theme.spacings.xxsmall};
     text-decoration: none;
     transition: all ${theme.transition.default};
+    outline: none;
 
     ${!!size && wrapperModifiers[size](theme)};
     ${disabled && wrapperModifiers.disabled()};

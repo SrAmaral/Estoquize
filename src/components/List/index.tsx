@@ -12,6 +12,7 @@ export type CardProps = {
   image: string
   description: string
   create_at: string
+  client: string
 }
 
 export type ListProps = {
@@ -21,16 +22,18 @@ export type ListProps = {
   quantityType?: 'produtos' | 'saida' | 'entrada'
   hasLocator?: boolean
   hasLocal?: boolean
+  hasClient?: boolean
   data: CardProps[]
 } & CardProps
 
 const List = ({
-  hasName = false,
+  hasName = true,
   hasData = false,
   hasQuantity = false,
   quantityType = 'produtos',
   hasLocator = false,
   hasLocal = false,
+  hasClient = false,
   data = DataMock
 }: ListProps) => (
   <S.Wrapper>
@@ -45,6 +48,11 @@ const List = ({
         <S.Name>
           <p>Nome</p>
         </S.Name>
+      )}
+      {hasClient && (
+        <S.Client>
+          <p>Cliente</p>
+        </S.Client>
       )}
       {hasData && (
         <S.Data>
@@ -93,6 +101,11 @@ const List = ({
             <S.Name>
               <p>{item.name}</p>
             </S.Name>
+          )}
+          {hasClient && (
+            <S.Client>
+              <p>{item.client}</p>
+            </S.Client>
           )}
           {hasData && (
             <S.Data>
